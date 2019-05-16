@@ -34,7 +34,7 @@
 
 4. #### Enjoy~ 😎
 
-![digimon_mysql]('./digimon_mysql.png')
+    ![digimon_mysql](./digimon_mysql.png)
 
 #### Lintang Wisesa :love_letter: _lintangwisesa@ymail.com_
 
