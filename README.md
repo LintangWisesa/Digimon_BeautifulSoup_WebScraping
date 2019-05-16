@@ -28,7 +28,7 @@
 3. #### Clone this repo & run _digimon.py_ file:
 
     ```bash
-    $ git clone
+    $ git clone https://github.com/LintangWisesa/Digimon_BeautifulSoup_WebScraping
     $ run digimon.py
     ```
 
