@@ -39,7 +39,9 @@ print(dataDigimonCSV)
 print(dataDigimonMysql)
 
 # ===========================================
-# save on csv
+# save as digimon.csv
+# ===========================================
+
 import csv
 
 with open('{}.csv'.format('digimon'), 'w', newline = '', encoding="utf-8") as fileku:
@@ -49,7 +51,12 @@ with open('{}.csv'.format('digimon'), 'w', newline = '', encoding="utf-8") as fi
         tulis.writerows(dataDigimonCSV)
 
 # ===========================================
-# save on mysql database
+# save on mysql database:
+#       $ create database digimon;
+#       $ use digimon;
+#       $ create table digimon(id int auto_increment, nama varchar(255), gambar varchar(255), primary key(id));
+# ===========================================
+
 import mysql.connector
 
 mydb = mysql.connector.connect(
