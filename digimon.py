@@ -57,6 +57,7 @@ with open('{}.csv'.format('digimon'), 'w', newline = '', encoding="utf-8") as fi
 #       $ create table digimon(id int auto_increment, nama varchar(255), gambar varchar(255), primary key(id));
 # ===========================================
 
+# pip install MySQL-connector-python
 import mysql.connector
 
 mydb = mysql.connector.connect(
